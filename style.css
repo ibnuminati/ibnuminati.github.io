@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+}
+
+nav a.active {
+  font-weight: bold;
+}
+
+.jumbotron {
+  padding: 5rem 3rem 5rem;
+}
+
+section a.btn {
+  margin-top: 10px;
+}
+
+#about {
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+#projects {
+  margin-top: -50px;
+  background-image: url('./img/ONE.jpg');
+  background-attachment: fixed;
+}
+
+#experience {
+  color: white;
+}
+
+#skills {
+  color: white;
+  background-color: #273036;
+}
+
+#contact {
+  color: white;
+}
