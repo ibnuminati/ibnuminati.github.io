@@ -61,6 +61,7 @@ section a.btn {
 #skills {
   padding-top: 20px;
   padding-bottom: 60px;
+  margin: auto;
   color: white;
   background-color: #273036;
 }
