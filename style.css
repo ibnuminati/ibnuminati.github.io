@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav a.active {
@@ -8,34 +9,58 @@ nav a.active {
 
 .jumbotron {
   padding: 5rem 3rem 5rem;
+  height: 555px;
 }
 
 section a.btn {
   margin-top: 10px;
 }
 
+.projects-img {
+  position: absolute;
+  width: 90%;
+}
+
 #about {
   color: white;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-top: 20px;
   margin-bottom: 30px;
 }
 
 #about img {
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 #projects {
-  margin-top: -50px;
-  background-image: url('./img/ONE.jpg');
+  padding-top: 20px;
+  color: white;
+  background-image: url('./img/john-towner-JgOeRuGD_Y4-unsplash.jpg');
+  background-size: cover;
+  background-position: center center  ;
   background-attachment: fixed;
 }
 
+.card-projects {
+  width: 90%;
+  max-width: 500px;
+  padding: 15px;
+  border-radius: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  transform-style: preserve-3d;
+}
+
 #experience {
+  padding-top: 30px;
   color: white;
 }
 
 #skills {
+  padding-top: 20px;
+  padding-bottom: 60px;
   color: white;
   background-color: #273036;
 }
@@ -52,4 +77,6 @@ section a.btn {
 
 #contact {
   color: white;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
