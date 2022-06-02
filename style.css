@@ -7,6 +7,19 @@ nav a.active {
   font-weight: bold;
 }
 
+.lead ul {
+  display: inline-flex;
+  margin-left: -40px;
+}
+
+.lead li {
+  margin-left: 30px;
+}
+
+.nav-link :hover {
+  color:	#DC3545;
+}
+
 .jumbotron {
   padding: 5rem 3rem 5rem;
   height: 555px;
@@ -87,4 +100,8 @@ section a.btn {
   bottom: 25px;
   right: 25px;
   display: none;
+}
+
+.teks-berjalan {
+  color:  #DC3545;
 }
