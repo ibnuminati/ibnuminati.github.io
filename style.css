@@ -25,6 +25,10 @@ nav a.active {
   color: #dc3545;
 }
 
+.link-cv :hover {
+  color: black;
+}
+
 section a.btn {
   margin-top: 10px;
 }
@@ -34,8 +38,14 @@ section a.btn {
   width: 90%;
 }
 
+#gallery {
+  background-image: url("./img/contour-background.png");
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 #services {
-  background-image: url("./img/john-towner-JgOeRuGD_Y4-unsplash.jpg");
+  background-image: url("./img/contour-background.png");
   background-position: center center;
   background-attachment: fixed;
 }
@@ -72,6 +82,7 @@ section a.btn {
 #projects {
   background-image: url("./img/contour-background.png");
   background-position: center center;
+  background-attachment: fixed;
 }
 
 #resume li {
