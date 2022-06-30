@@ -7,14 +7,16 @@ nav a.active {
   font-weight: bold;
 }
 
-.lead ul {
-  display: inline-flex;
-  margin-left: -2rem;
-}
+@media (min-width: 768px) {
+  .lead ul {
+    display: inline-flex;
+    margin-left: -2rem;
+  }
 
-.lead li {
-  margin-left: 2rem;
-  list-style: circle;
+  .lead li {
+    margin-left: 2rem;
+    list-style: circle;
+  }
 }
 
 .education li {
@@ -130,33 +132,4 @@ section a.btn {
 
 .teks-berjalan {
   color: #dc3545;
-}
-
-.carousel-item img {
-  max-width: 50%;
-}
-
-.img-project {
-  position: relative;
-  z-index: 1;
-}
-
-.btn-live {
-  position: absolute;
-  display: none;
-  margin-left: 500px;
-  margin-top: -320px !important;
-  z-index: 2;
-}
-
-.img-project:hover {
-  filter: blur(1px);
-}
-
-.img-project:hover + .btn-live {
-  display: block;
-}
-
-.btn-live:hover {
-  display: inline-block;
 }
