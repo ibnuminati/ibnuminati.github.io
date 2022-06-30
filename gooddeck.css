@@ -2,6 +2,10 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+.carousel img {
+  max-height: 550px;
+}
+
 #about {
   background-color: #003780;
   background-image: url("./img/contour-background.png");
