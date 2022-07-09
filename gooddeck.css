@@ -2,6 +2,10 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+.nav-item {
+  text-transform: uppercase;
+}
+
 .carousel img {
   max-height: 550px;
 }
@@ -43,17 +47,10 @@ body {
   color: white;
 }
 
-footer {
-  background-color: #003780;
-}
-
 footer a {
   color: white;
 }
 
 /* DESKTOP VERSION */
 @media (min-width: 768px) {
-  .nav-item {
-    text-transform: uppercase;
-  }
 }

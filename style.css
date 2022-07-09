@@ -35,19 +35,8 @@ section a.btn {
   margin-top: 10px;
 }
 
-.gallery-img {
-  position: absolute;
-  width: 90%;
-}
-
-#gallery {
-  background-image: url("./img/contour-background.png");
-  background-position: center center;
-  background-attachment: fixed;
-}
-
 #services {
-  background-image: url("./img/contour-background.png");
+  background-image: url("./img/gray-wireframe-wave-with-geometric-shapes-black-background.jpg");
   background-position: center center;
   background-attachment: fixed;
 }
@@ -79,6 +68,17 @@ section a.btn {
 .card-services img {
   max-width: 150px;
   padding: 10px;
+}
+
+.gallery-img {
+  position: absolute;
+  width: 90%;
+}
+
+#gallery {
+  background-image: url("./img/contour-background.png");
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 #projects {
