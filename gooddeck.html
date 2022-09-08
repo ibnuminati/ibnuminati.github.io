@@ -9,9 +9,9 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-  <!-- My CSS -->
+  <!-- My CSS
   <link rel="stylesheet" href="gooddeck.css">
-
+-->
   <!-- Icon -->
   <script src="https://kit.fontawesome.com/cfa43446be.js" crossorigin="anonymous"></script>
 
@@ -20,12 +20,114 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&display=swap" rel="stylesheet">
 
-  <title>Good Deck | Thank Good For Fingerboarding</title>
+  <style>
+    body {
+      font-family: "Karla", sans-serif;
+    }
+
+    .nav-item {
+      text-transform: uppercase;
+    }
+
+    .carousel img {
+      max-height: 550px;
+    }
+
+    footer {
+      background-color: #003780;
+      background-image: url("./img/contour-background.png");
+      background-size: cover;
+    }
+
+    .btn-tokped {
+      color: white;
+      background-color: #03ac0e !important;
+      border-radius: 20px;
+    }
+
+    .btn-shopee {
+      color: white;
+      background-color: #ee4d2d !important;
+      border-radius: 20px;
+    }
+
+    .follow-us li {
+      display: inline;
+      list-style: none;
+      margin: 5px;
+    }
+
+    .follow-us li :hover {
+      color: yellow;
+    }
+
+    .follow-us ul {
+      display: inline-flex;
+      padding-left: 0px;
+    }
+
+    .follow-us a {
+      color: white;
+    }
+
+    .card-catalog :hover {
+      box-shadow: 0px 1px 1px;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    .line-catalog {
+      position: absolute;
+      margin-top: -25px;
+    }
+
+    .line-news1 {
+      position: absolute;
+      margin-top: -25px;
+    }
+
+    .line-news2 {
+      position: absolute;
+      margin-top: -25px;
+    }
+
+    .ribbon {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .ribbon span {
+      width: 225px;
+      height: 25px;
+      background-color: red;
+      position: absolute;
+      display: block;
+      transform: rotate(45deg) translateY(-12px);
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    /* DESKTOP VERSION */
+    @media (min-width: 768px) {}
+  </style>
+
+  <title>Good Deck | Thank Good For Fingerboard</title>
 </head>
 
 <body id="home">
   <!-- Navbar Start -->
-  <nav class="navbar sticky-top navbar-expand-lg" style="background-color: white;">
+  <nav class="navbar navbar-expand-lg" style="background-color: white;">
     <div class="container">
       <a class="navbar-brand p-2 flex-grow-1" href="#">
         <img src="img/gooddeck/Good Logo Block.png" height="40" alt=" GoodDeckLogo">
@@ -61,10 +163,6 @@
             <a class="nav-link" href="#news">Berita</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
-          <button class="btn btn-outline-danger" type="submit">Cari</button>
-        </form>
       </div>
     </div>
   </nav>
@@ -93,31 +191,103 @@
   <section id="product">
     <div class="container">
       <h3 class="pt-3 fw-bold">Fingerboard Decks</h3>
-      <div class="row justify-content-center catalog">
+      <svg class="line-catalog" width="1115" height="5">
+        <line x1="255" y1="0" x2="1115" y2="0" stroke="#EE2D24" stroke-width="9" />
+      </svg>
+      <div class="row justify-content-center catalog text-center">
         <div class="col-6 col-sm-3 pt-3">
           <div class="card w-100 border-light">
-            <img src="img/gooddeck/Sale Goodci.png" class="card-img-top" alt="Goodci">
+            <div class="ribbon">
+              <span>baru</span>
+            </div>
+            <img src="img/gooddeck/DECK PAPA.png" class="card-img-top deck-img" alt="Fingerboard Deck Papa">
             <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Fingerboard Good Deck - "Goodci" Limited Edition</p>
-              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
-                  105.000</span>
+              <h5 class="card-title">PAPA</h5>
+              <p class="card-text">Fingerboard Good Deck - "Papa" Limited Edition</p>
+              <p class="card-text"><span class="fw-bold"> Rp
+                  130.000</span>
               </p>
               <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
-                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-goodci-limited-edition" target="blank"
+                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-thx-limited-edition" target="blank"
                   type="button">BELANJA DI TOKOPEDIA</button>
-                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11826301049/" target="blank"
-                  b type="button">BELANJA DI SHOPEE</button>
+                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11128692189/" target="blank"
+                  type="button">BELANJA DI SHOPEE</button>
               </div>
             </div>
           </div>
         </div>
         <div class="col-6 col-sm-3 pt-3">
           <div class="card w-100 border-light">
-            <img src="img/gooddeck/Sale Goodle.png" class="card-img-top" alt="Goodle">
+            <img src="img/gooddeck/DECK QUEEN.png" class="card-img-top deck-img" alt="Queen">
             <div class="card-body">
-              <h5 class="card-title"></h5>
+              <h5 class="card-title">QUEEN</h5>
+              <p class="card-text">Fingerboard Good Deck - "Queen" Limited Edition</p>
+              <p class="card-text fw-bold"> Rp 130.000
+              </p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-tokped"
+                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-queen-limited-edition"
+                  type="button">BELANJA DI
+                  TOKOPEDIA</button>
+                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/16464033315/" target="blank"
+                  type="button">BELANJA DI SHOPEE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 pt-3">
+          <div class="card w-100 border-light">
+            <img src="img/gooddeck/DECK FIST.png" class="card-img-top deck-img" alt="Fingerboard Deck Fist">
+            <div class="card-body">
+              <h5 class="card-title">FIST</h5>
+              <p class="card-text">Fingerboard Good Deck - "Fist" Limited Edition</p>
+              <p class="card-text fw-bold"> Rp 130.000
+              </p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-tokped"
+                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-fist-hand-limited-edition"
+                  target="blank" type="button">BELANJA DI
+                  TOKOPEDIA</button>
+                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/15347900560/" target="blank"
+                  type="button">BELANJA DI SHOPEE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 pt-3">
+          <div class="card w-100 border-light">
+            <div class="ribbon">
+              <span>terlaris</span>
+            </div>
+            <img src="img/gooddeck/DECK ONES.png" class="card-img-top deck-img" alt="Fingerboard Deck Ones">
+            <div class="card-body">
+              <h5 class="card-title">ONE$</h5>
+              <p class="card-text">Fingerboard Good Deck - "One$" Limited Edition</p>
+              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
+                  105.000</span>
+              </p>
+              <div class="d-grid gap-2">
+                <button class="btn btn-tokped"
+                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-one-limited-edition" target="blank"
+                  type="button">BELANJA DI
+                  TOKOPEDIA</button>
+                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11626287606/" target="blank"
+                  type="button">BELANJA DI SHOPEE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center">
+        <div class="col-6 col-sm-3 pt-3">
+          <div class="card w-100 border-light">
+            <div class="ribbon">
+              <span>-19%</span>
+            </div>
+            <img src="img/gooddeck/DECK GOODLE.png" class="card-img-top deck-img" alt="Fingerboard Deck Goodle">
+            <div class="card-body">
+              <h5 class="card-title">GOODLE</h5>
               <p class="card-text">Fingerboard Good Deck - "Goodle" Limited Edition</p>
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
@@ -134,9 +304,12 @@
         </div>
         <div class="col-6 col-sm-3 pt-3">
           <div class="card w-100 border-light">
-            <img src="img/gooddeck/Sale 999.png" class="card-img-top" alt="999.9">
+            <div class="ribbon">
+              <span>-19%</span>
+            </div>
+            <img src="img/gooddeck/DECK 999.png" class="card-img-top deck-img" alt="Fngerboard Deck 999.9">
             <div class="card-body">
-              <h5 class="card-title"></h5>
+              <h5 class="card-title">999.9</h5>
               <p class="card-text">Fingerboard Good Deck - "999.9" Limited Edition</p>
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
@@ -153,30 +326,12 @@
         </div>
         <div class="col-6 col-sm-3 pt-3">
           <div class="card w-100 border-light">
-            <img src="img/gooddeck/Sale THX.png" class="card-img-top" alt="Thx">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Fingerboard Good Deck - "Thx" Limited Edition</p>
-              <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
-                  105.000</span>
-              </p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-tokped"
-                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-thx-limited-edition" target="blank"
-                  type="button">BELANJA DI TOKOPEDIA</button>
-                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11128692189/" target="blank"
-                  type="button">BELANJA DI SHOPEE</button>
-              </div>
+            <div class="ribbon">
+              <span>-19%</span>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-6 col-sm-3 pt-3">
-          <div class="card w-100 border-light">
-            <img src="img/gooddeck/Sale Pray.png" class="card-img-top" alt="Pray">
+            <img src="img/gooddeck/DECK PRAY.png" class="card-img-top deck-img" alt="Fingerboard Deck Pray">
             <div class="card-body">
-              <h5 class="card-title"></h5>
+              <h5 class="card-title">PRAY</h5>
               <p class="card-text">Fingerboard Good Deck - "Pray" Limited Edition</p>
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
@@ -194,58 +349,22 @@
         </div>
         <div class="col-6 col-sm-3 pt-3">
           <div class="card w-100 border-light">
-            <img src="img/gooddeck/Sale Ones.png" class="card-img-top" alt="Ones">
+            <div class="ribbon">
+              <span>-19%</span>
+            </div>
+            <img src="img/gooddeck/DECK GOODCI.png" class="card-img-top deck-img" alt="Fingerboard Deck Goodci">
             <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Fingerboard Good Deck - "One$" Limited Edition</p>
+              <h5 class="card-title">GOODCI</h5>
+              <p class="card-text">Fingerboard Good Deck - "Goodci" Limited Edition</p>
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
               </p>
               <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
-                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-one-limited-edition" target="blank"
-                  type="button">BELANJA DI
-                  TOKOPEDIA</button>
-                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11626287606/" target="blank"
-                  type="button">BELANJA DI SHOPEE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-sm-3 pt-3">
-          <div class="card w-100 border-light">
-            <img src="img/gooddeck/FIST HAND.png" class="card-img-top" alt="Fist">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Fingerboard Good Deck - "Fist" Limited Edition</p>
-              <p class="card-text fw-bold"> Rp 130.000
-              </p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-tokped"
-                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-fist-hand-limited-edition"
-                  target="blank" type="button">BELANJA DI
-                  TOKOPEDIA</button>
-                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/15347900560/" target="blank"
-                  type="button">BELANJA DI SHOPEE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 col-sm-3 pt-3">
-          <div class="card w-100 border-light">
-            <img src="img/gooddeck/QUEEN.png" class="card-img-top" alt="Queen">
-            <div class="card-body">
-              <h5 class="card-title"></h5>
-              <p class="card-text">Fingerboard Good Deck - "Queen" Limited Edition</p>
-              <p class="card-text fw-bold"> Rp 130.000
-              </p>
-              <div class="d-grid gap-2">
-                <button class="btn btn-tokped"
-                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-queen-limited-edition"
-                  type="button">BELANJA DI
-                  TOKOPEDIA</button>
-                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/16464033315/" target="blank"
-                  type="button">BELANJA DI SHOPEE</button>
+                  href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-goodci-limited-edition" target="blank"
+                  type="button">BELANJA DI TOKOPEDIA</button>
+                <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11826301049/" target="blank"
+                  b type="button">BELANJA DI SHOPEE</button>
               </div>
             </div>
           </div>
@@ -254,10 +373,79 @@
   </section>
   <!-- Product End -->
 
+  <!-- About Start -->
+  <section id="about">
+    <div class="container">
+      <div class="row justify-content-center text-center pt-3">
+        <div class="col-12 col-md-6 order-1 order-md-1">
+          <img src="img/gooddeck/Made in Indonesia.jpg" alt="Handmade In Indonesia">
+        </div>
+        <div class="col-12 col-sm-6 order-2 order-md-2 m-auto">
+          <p class="fw-bold">Bangga Buatan Indonesia</p>
+          <h2 class="fw-bold text-danger">Handmade In Indonesia</h5>
+            <P>Dibuat langsung di Indonesia</P>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center pt-3">
+        <div class="col-12 col-md-6 order-2 order-md-1 m-auto">
+          <p class="fw-bold">100% Asli</p>
+          <h2 class="fw-bold text-danger">Real Wood, Real Wear Graphic</h2>
+          <P>Good Deck terbuat dari 100% maple asli dan menggunakan tinta yang menempel langsung ke papan untuk
+            grafisnya
+            seperti halnya skateboard profesional. </P>
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2">
+          <img src="img/gooddeck/BANNER GOODST.jpg" alt="GOODST">
+        </div>
+      </div>
+      <div class="row justify-content-center text-center pt-3">
+        <div class="col-12 col-sm-6 order-1 order-md-1">
+          <img src="img/gooddeck/BG PRAY.jpg" width="500px" height="500px" alt="">
+        </div>
+        <div class="col-12 col-md-6 order-2 order-md-2 m-auto">
+          <p class="fw-bold">Kualitas Terbaik</p>
+          <h2 class="fw-bold text-danger">Good Quality, Superior Precision</h5>
+            <P>Dengan panduan bor pada cetakan membuat lubang untuk trucks yang akurat serta presisi menjadikan papan
+              terbaik yang pernah dibuat.</P>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center pt-3">
+        <div class="col-12 col-md-6 order-2 order-md-1 m-auto">
+          <p class="fw-bold">Performa Terbaik</p>
+          <h2 class="fw-bold text-danger">Easy Pop, More Flip</h2>
+          <P>Cetakan baru yang dirancang dengan high kick dan concave yang sedikit lebih agresif agar lebih mudah untuk
+            dimainkan oleh pemula mulai dari melakukan lompatan (ollie) hingga melakukan banyak trik putaran
+            (flip) seperti halnya pada skateboard profesional.</P>
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2">
+          <img src="img/gooddeck/Good Mold Shape Guide.jpg" alt="Good Fingerboard Mold Shape Guide">
+        </div>
+      </div>
+      <div class="row justify-content-center text-center pt-3">
+        <div class="col-12 col-md-6 order-1 order-md-1">
+          <img src="img/gooddeck/BG ONES.jpg" width="500px" height="500px" alt="">
+        </div>
+        <div class="col-12 col-md-6 order-2 order-md-2 m-auto">
+          <p class="fw-bold">Terbatas</p>
+          <h2 class="fw-bold text-danger">Limited</h5>
+            <P>Setiap desain hanya dibuat 13 papan saja di dunia dan tidak akan dicetak ulang kembali pada kemudian
+              hari.</P>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About End -->
+
   <!-- Review Start -->
   <section id="review">
     <div class="container">
       <h3 class="text-center pt-3 fw-bold">Ulasan</h3>
+      <svg class="line-news1" width="515" height="5">
+        <line x1="0" y1="0" x2="500" y2="0" stroke="#EE2D24" stroke-width="9" />
+      </svg>
+      <svg class="line-news2" width="1115" height="5">
+        <line x1="615" y1="0" x2="1115" y2="0" stroke="#EE2D24" stroke-width="9" />
+      </svg>
       <div id="carouselExampleControls" class="carousel carousel-dark slide text-center" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -297,7 +485,7 @@
                 <i class="fa-solid fa-star text-warning"></i>
                 <i class="fa-solid fa-star text-warning"></i>
                 <i class="fa-solid fa-star text-warning"></i>
-                <p class="card-text">wah mantep sih deck nya, cakep finishing dan build quality.. packaging nya jg
+                <p class="card-text">wah mantep sih deck nya, cakep finishing dan build quality..<br>packaging nya jg
                   cakep. pengiriman aman dan cepat..sukses gan... recommended !!</p>
                 <img src="img/gooddeck/slide-review-3.jpg" class="img-review" height="100" width="100" alt="...">
               </div>
@@ -323,6 +511,13 @@
   <section id="news">
     <div class="container">
       <h3 class="text-center pt-3 fw-bold">Berita</h3>
+      <svg class="line-news1" width="500" height="5">
+        <line x1="0" y1="0" x2="500" y2="0" stroke="#EE2D24" stroke-width="9" />
+      </svg>
+      <svg class="line-news2" width="1115" height="5">
+        <line x1="615" y1="0" x2="1115" y2="0" stroke="#EE2D24" stroke-width="9" />
+      </svg>
+
       <div class="row justify-content-center">
         <div class="col-md-4 pt-3">
           <div class="card">
@@ -363,26 +558,31 @@
   </section>
   <!-- News End -->
 
-  <!-- About Start -->
-  <section id="about" class="text-light bg-danger mt-3">
+  <!-- Media Start -->
+  <section id="video">
     <div class="container">
-      <div class="row pt-3 pb-3">
-        <div class="col-md-4">
-          <h5>Tentang Kami</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic sunt culpa amet exercitationem
-            reprehenderit aut accusamus eos, omnis veniam non, doloribus qui officiis neque consequuntur!
-            Voluptatum doloremque deserunt atque omnis?</p>
+      <div class="row pt-3">
+        <div class="col-12 col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/VKLF9QWbRZ4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-        <div class="col-md-4 follow-us">
-          <h5>Ikuti Kami</h5>
-          <ul>
-            <li><a href="https://instagram.com/gooddeck.id" target="blank"><i
-                  class="fa-brands fa-instagram fs-3"></i></a></li>
-            <li><i class="fa-brands fa-tiktok fs-3"></i></li>
-            <li><i class="fa-brands fa-youtube fs-3"></i></li>
-          </ul>
+        <div class="col-12 col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/35wlF4z4K2I" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-        <div class="col-md-4 contact-us">
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Start -->
+  <footer class="bg-danger text-light">
+    <div class="container">
+      <div class="row pt-3 pb-3 mt-3">
+        <div class="col-md-6 contact-us">
           <h5>Hubungi Kami</h5>
           <form>
             <div class="mb-3">
@@ -390,27 +590,41 @@
               <input type="email" class="form-control" id="name" aria-describedby="name" name="name">
               <label for="email" class="form-label">Alamat Email</label>
               <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
-
               <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
               <textarea class="form-control" id="messeage" rows="3" name="messeage"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Kirim</button>
           </form>
         </div>
+        <div class="col-md-3 follow-us">
+          <h5>Ikuti Kami</h5>
+          <ul>
+            <li><a href="https://instagram.com/gooddeck.id" target="blank"><i
+                  class="fa-brands fa-instagram fs-3"></i></a></li>
+            <li><i class="fa-brands fa-tiktok fs-4"></i></li>
+            <li><i class="fa-brands fa-youtube fs-3"></i></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- About End -->
-
-  <footer>
-    <div class="row pt-3 bg-danger text-light text-center">
-      <div class="col">
-        <p><i class="fa-regular fa-copyright"></i> 2022 Good Deck - All Right Reserved. Powered by <a
-            href="https//ibnuminati.github.io">ibnuminati</a>
-        </p>
+      <div class="row pt-3 text-center">
+        <div class="col">
+          <p><i class="fa-regular fa-copyright"></i> 2022 Good Deck - All Right Reserved. Powered by <a
+              href="https//ibnuminati.github.io">ibnuminati</a>
+          </p>
+        </div>
       </div>
     </div>
   </footer>
+  <!-- Footer End -->
+
+
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".deck-img"), {
+      max: 25,
+      speed: 400
+    });
+  </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
