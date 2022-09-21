@@ -35,12 +35,6 @@ section a.btn {
   margin-top: 10px;
 }
 
-#services {
-  background-image: url("./img/gray-wireframe-wave-with-geometric-shapes-black-background.jpg");
-  background-position: center center;
-  background-attachment: fixed;
-}
-
 #services .card-title {
   padding-bottom: 10px;
 }
@@ -76,12 +70,6 @@ section a.btn {
 }
 
 #gallery {
-  background-image: url("./img/contour-background.png");
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-#projects {
   background-image: url("./img/contour-background.png");
   background-position: center center;
   background-attachment: fixed;
@@ -132,4 +120,8 @@ section a.btn {
 
 .teks-berjalan {
   color: #dc3545;
+}
+
+.btn:hover {
+  color: #273036;
 }
