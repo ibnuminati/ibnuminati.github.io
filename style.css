@@ -7,28 +7,8 @@ nav a.active {
   font-weight: bold;
 }
 
-@media (min-width: 768px) {
-  .lead ul {
-    display: inline-flex;
-    margin-left: -2rem;
-  }
-
-  .lead li {
-    margin-left: 2rem;
-    list-style: circle;
-  }
-}
-
-.education li {
-  list-style: none;
-}
-
 .nav-link :hover {
   color: #dc3545;
-}
-
-.link-cv :hover {
-  color: black;
 }
 
 section a.btn {
@@ -40,7 +20,7 @@ section a.btn {
 }
 
 .card-services {
-  width: 90%;
+  width: 100%;
   max-width: 500px;
   height: 400px;
   padding: 1rem;
@@ -64,12 +44,10 @@ section a.btn {
   padding: 10px;
 }
 
-.gallery-img {
-  position: absolute;
-  width: 90%;
-}
-
-#gallery {
+#services,
+#skills,
+#gallery,
+#projects {
   background-image: url("./img/contour-background.png");
   background-position: center center;
   background-attachment: fixed;
@@ -79,20 +57,13 @@ section a.btn {
   font-style: italic;
 }
 
-#education li {
+#education,
+.category-head li {
   list-style: none;
 }
 
 .desc {
   padding-top: 10px;
-}
-
-#skills {
-  padding-top: 20px;
-  padding-bottom: 60px;
-  margin: auto;
-  color: white;
-  background-color: #273036;
 }
 
 .skills-img {
@@ -103,12 +74,6 @@ section a.btn {
   width: 120px;
   height: 120px;
   margin: 10px;
-}
-
-#contact {
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 50px;
 }
 
 .back-to-top {
@@ -122,6 +87,34 @@ section a.btn {
   color: #dc3545;
 }
 
-.btn:hover {
-  color: #273036;
+.category-title {
+  display: flex;
+  cursor: pointer;
+  padding: 12px;
+  background: #273036;
+}
+
+.social a {
+  display: inline-block;
+}
+
+.gallery-active {
+  background-color: #dc3545;
+}
+
+.btn-kirim:hover {
+  opacity: 0.7;
+}
+
+/* Mobile Version */
+@media (min-width: 768px) {
+  .lead ul {
+    display: inline-flex;
+    margin-left: -2rem;
+  }
+
+  .lead li {
+    margin-left: 2rem;
+    list-style: circle;
+  }
 }
