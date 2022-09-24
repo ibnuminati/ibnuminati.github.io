@@ -71,7 +71,7 @@
     }
 
     .card-catalog :hover {
-      box-shadow: 0px 1px 1px;
+      opacity: 0.7;
     }
 
     footer a {
@@ -98,11 +98,11 @@
     }
 
     .ribbon {
-      width: 100px;
-      height: 100px;
+      width: 90px;
+      height: 90px;
       position: absolute;
-      top: -10px;
-      right: -10px;
+      top: -6px;
+      right: -6px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -112,7 +112,6 @@
     .ribbon span {
       width: 225px;
       height: 25px;
-      background-color: red;
       position: absolute;
       display: block;
       transform: rotate(45deg) translateY(-12px);
@@ -120,6 +119,26 @@
       text-transform: uppercase;
       color: #fff;
       font-weight: 600;
+    }
+
+    .ribbon::after,
+    .ribbon::before {
+      content: "";
+      border-top: 3px solid transparent;
+      border-right: 3px solid transparent;
+      border-bottom: 3px solid black;
+      border-left: 3px solid black;
+      position: absolute;
+    }
+
+    .ribbon::before {
+      bottom: 0;
+      right: 0;
+    }
+
+    .ribbon::after {
+      top: 0;
+      left: 0;
     }
 
     /* DESKTOP VERSION */
@@ -145,7 +164,7 @@
 
 <body id="home">
   <!-- Navbar Start -->
-  <nav class="navbar navbar-expand-lg" style="background-color: white;">
+  <nav class="navbar navbar-expand-lg bg-light text-dark">
     <div class="container">
       <a class="navbar-brand p-2 flex-grow-1" href="#">
         <img src="img/gooddeck/Good Logo Block.png" height="40" alt=" GoodDeckLogo">
@@ -225,7 +244,7 @@
         <div class="col-12 col-sm-3 pt-3">
           <div class="card w-100 border-light">
             <div class="ribbon">
-              <span>baru</span>
+              <span style="background-color:#03ac0e">baru</span>
             </div>
             <img src="img/gooddeck/DECK PAPA.png" class="card-img-top deck-img" alt="Fingerboard Deck Papa">
             <div class="card-body">
@@ -234,13 +253,13 @@
               <p class="card-text"><span class="fw-bold"> Rp
                   130.000</span>
               </p>
-              <div class="d-grid gap-2">
+              <!-- <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
                   href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-thx-limited-edition" target="blank"
                   type="button">BELANJA DI TOKOPEDIA</button>
                 <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11128692189/" target="blank"
                   type="button">BELANJA DI SHOPEE</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -252,14 +271,14 @@
               <p class="card-text">Fingerboard Good Deck - "Queen" Limited Edition</p>
               <p class="card-text fw-bold"> Rp 130.000
               </p>
-              <div class="d-grid gap-2">
+              <!-- <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
                   href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-queen-limited-edition"
                   type="button">BELANJA DI
                   TOKOPEDIA</button>
                 <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/16464033315/" target="blank"
                   type="button">BELANJA DI SHOPEE</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -271,21 +290,21 @@
               <p class="card-text">Fingerboard Good Deck - "Fist" Limited Edition</p>
               <p class="card-text fw-bold"> Rp 130.000
               </p>
-              <div class="d-grid gap-2">
+              <!-- <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
                   href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-fist-hand-limited-edition"
                   target="blank" type="button">BELANJA DI
                   TOKOPEDIA</button>
                 <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/15347900560/" target="blank"
                   type="button">BELANJA DI SHOPEE</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-3 pt-3">
           <div class="card w-100 border-light">
             <div class="ribbon">
-              <span>terlaris</span>
+              <span style="background-color: #03ac0e;">terlaris</span>
             </div>
             <img src="img/gooddeck/DECK ONES.png" class="card-img-top deck-img" alt="Fingerboard Deck Ones">
             <div class="card-body">
@@ -294,14 +313,14 @@
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
               </p>
-              <div class="d-grid gap-2">
+              <!-- <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
                   href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-one-limited-edition" target="blank"
                   type="button">BELANJA DI
                   TOKOPEDIA</button>
                 <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11626287606/" target="blank"
                   type="button">BELANJA DI SHOPEE</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -310,7 +329,7 @@
         <div class="col-12 col-sm-3 pt-3">
           <div class="card w-100 border-light">
             <div class="ribbon">
-              <span>-19%</span>
+              <span style="background-color: red;">-19%</span>
             </div>
             <img src="img/gooddeck/DECK GOODLE.png" class="card-img-top deck-img" alt="Fingerboard Deck Goodle">
             <div class="card-body">
@@ -319,20 +338,20 @@
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
               </p>
-              <div class="d-grid gap-2">
+              <!-- <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
                   href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-goodle-limited-edition" target="blank"
                   b type="button">BELANJA DI TOKOPEDIA</button>
                 <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/4397467692/" target="blank"
                   type="button">BELANJA DI SHOPEE</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-3 pt-3">
           <div class="card w-100 border-light">
             <div class="ribbon">
-              <span>-19%</span>
+              <span style="background-color: red;">-19%</span>
             </div>
             <img src="img/gooddeck/DECK 999.png" class="card-img-top deck-img" alt="Fngerboard Deck 999.9">
             <div class="card-body">
@@ -341,20 +360,20 @@
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
               </p>
-              <div class="d-grid gap-2">
+              <!-- <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
                   href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-999-9-limited-edition" target="blank"
                   type="button">BELANJA DI TOKOPEDIA</button>
                 <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/9189590589/" target="blank"
                   type="button">BELANJA DI SHOPEE</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-3 pt-3">
           <div class="card w-100 border-light">
             <div class="ribbon">
-              <span>-19%</span>
+              <span style="background-color: red;">-19%</span>
             </div>
             <img src="img/gooddeck/DECK PRAY.png" class="card-img-top deck-img" alt="Fingerboard Deck Pray">
             <div class="card-body">
@@ -363,21 +382,21 @@
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
               </p>
-              <div class="d-grid gap-2">
+              <!-- <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
                   href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-pray-limited-edition" target="blank"
                   type="button">BELANJA DI
                   TOKOPEDIA</button>
                 <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/10728695037/" target="blank"
                   type="button">BELANJA DI SHOPEE</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-3 pt-3">
           <div class="card w-100 border-light">
             <div class="ribbon">
-              <span>-19%</span>
+              <span style="background-color: red;">-19%</span>
             </div>
             <img src="img/gooddeck/DECK GOODCI.png" class="card-img-top deck-img" alt="Fingerboard Deck Goodci">
             <div class="card-body">
@@ -386,13 +405,13 @@
               <p class="card-text"><span class="text-decoration-line-through">Rp 130.000</span><span class="fw-bold"> Rp
                   105.000</span>
               </p>
-              <div class="d-grid gap-2">
+              <!-- <div class="d-grid gap-2">
                 <button class="btn btn-tokped"
                   href="https://www.tokopedia.com/gooddeck/fingerboard-good-deck-goodci-limited-edition" target="blank"
                   type="button">BELANJA DI TOKOPEDIA</button>
                 <button class="btn btn-shopee" href="https://shopee.co.id/product/259640727/11826301049/" target="blank"
                   b type="button">BELANJA DI SHOPEE</button>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>

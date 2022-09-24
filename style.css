@@ -106,7 +106,7 @@ section a.btn {
   opacity: 0.7;
 }
 
-/* Mobile Version */
+/* Desktop Version */
 @media (min-width: 768px) {
   .lead ul {
     display: inline-flex;
