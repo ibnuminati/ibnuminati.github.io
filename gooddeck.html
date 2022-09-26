@@ -84,20 +84,6 @@
       margin-top: -25px;
     }
 
-    .line-news1 {
-      position: absolute;
-      margin-top: -25px;
-      width: 125px;
-      height: 5px;
-    }
-
-    .line-news2 {
-      position: absolute;
-      margin-top: -25px;
-      width: 740px;
-      height: 5px;
-    }
-
     .ribbon {
       width: 90px;
       height: 90px;
@@ -142,21 +128,9 @@
       left: 0;
     }
 
-    /* DESKTOP VERSION */
-    @media (min-width: 768px) {
-      .line-news1 {
-        position: absolute;
-        margin-top: -25px;
-        width: 500px;
-        height: 5px;
-      }
-
-      .line-news2 {
-        position: absolute;
-        margin-top: -25px;
-        width: 1115px;
-        height: 5px;
-      }
+    .card-review {
+      height: 280px;
+      width: 100%;
     }
   </style>
 
@@ -494,70 +468,120 @@
 
   <!-- Review Start -->
   <section id="review">
-    <div class="container">
-      <h3 class="text-center pt-3 fw-bold">Ulasan</h3>
-      <svg class="line-news1">
-        <line x1="0" y1="0" x2="500" y2="0" stroke="#EE2D24" stroke-width="9" />
-      </svg>
-      <svg class="line-news2">
-        <line x1="615" y1="0" x2="1115" y2="0" stroke="#EE2D24" stroke-width="9" />
-      </svg>
-      <div id="carouselExampleControls" class="carousel carousel-dark slide text-center" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="card border-light">
-              <div class="card-body">
-                <h5 class="card-title">Max</h5>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <p class="card-text">mantap banget thx juga bonus ya</p>
-                <img src="img/gooddeck/slide-review-1.jpg" class="img-review" height="100" width="100" alt="...">
+    <div class="container p-5">
+      <h3 class="text-center fw-bold">Ulasan</h3>
+      <hr class="border-5 border-top border-danger">
+      <div class="owl-carousel owl-theme text-center">
+        <div class="item">
+          <div class="card card-review border-light">
+            <div class="card-body">
+              <div class="user-icon">
+                <i class="fa-solid fa-circle-user"></i>
+                <h6 class="card-title">Max</h6>
               </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card border-light">
-              <div class="card-body">
-                <h5 class="card-title">Dedey</h5>
+              <div class="rating">
                 <i class="fa-solid fa-star text-warning"></i>
                 <i class="fa-solid fa-star text-warning"></i>
                 <i class="fa-solid fa-star text-warning"></i>
                 <i class="fa-solid fa-star text-warning"></i>
                 <i class="fa-solid fa-star text-warning"></i>
-                <p class="card-text">order yg ke sekian,barang selalu bagus prend...mantaps,trims bonusnya</p>
-                <img src="img/gooddeck/slide-review-2.jpg" class="img-review" height="100" width="100" alt="...">
               </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="card border-light">
-              <div class="card-body">
-                <h5 class="card-title">Fitroh</h5>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <i class="fa-solid fa-star text-warning"></i>
-                <p class="card-text">wah mantep sih deck nya, cakep finishing dan build quality..<br>packaging nya jg
-                  cakep. pengiriman aman dan cepat..sukses gan... recommended !!</p>
-                <img src="img/gooddeck/slide-review-3.jpg" class="img-review" height="100" width="100" alt="...">
-              </div>
+              <p class="card-text">mantap banget thx juga bonus ya</p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="item">
+          <div class="card card-review border-light">
+            <div class="card-body">
+              <div class="user-icon">
+                <i class="fa-solid fa-circle-user"></i>
+                <h6 class="card-title">Dedey</h6>
+              </div>
+              <div class="rating">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text">order yg ke sekian,barang selalu bagus prend...mantaps,trims bonusnya</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card card-review border-light">
+            <div class="card-body">
+              <div class="user-icon">
+                <i class="fa-solid fa-circle-user"></i>
+                <h6 class="card-title">Fitroh</h>
+              </div>
+              <div class="rating">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text">wah mantep sih deck nya, cakep finishing dan build quality..<br>packaging nya jg
+                cakep. pengiriman aman dan cepat..sukses gan... recommended !!</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card card-review border-light">
+            <div class="card-body">
+              <div class="user-icon">
+                <i class="fa-solid fa-circle-user"></i>
+                <h6 class="card-title">Prayogo17</h6>
+              </div>
+              <div class="rating">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text">asik barangnya jerr... makasih</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card card-review border-light">
+            <div class="card-body">
+              <div class="user-icon">
+                <i class="fa-solid fa-circle-user"></i>
+                <h6 class="card-title">Armansja_123</h6>
+              </div>
+              <div class="rating">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text">Pengiriman cepet,untuk harga segitu lumayan worth it lah mungkin next time beli lagi
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card card-review border-light">
+            <div class="card-body">
+              <div class="user-icon">
+                <i class="fa-solid fa-circle-user"></i>
+                <h6 class="card-title">Theosetyo</h6>
+              </div>
+              <div class="rating">
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+                <i class="fa-solid fa-star text-warning"></i>
+              </div>
+              <p class="card-text">Produk bagus bgt... Sesuai yg diharapkan... Thx seller...</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -565,15 +589,9 @@
 
   <!-- News Start -->
   <section id="news">
-    <div class="container">
-      <h3 class="text-center pt-3 fw-bold">Berita</h3>
-      <svg class="line-news1">
-        <line x1="0" y1="0" x2="500" y2="0" stroke="#EE2D24" stroke-width="9" />
-      </svg>
-      <svg class="line-news2">
-        <line class="line2" x1="615" y1="0" x2="1115" y2="0" stroke="#EE2D24" stroke-width="9" />
-      </svg>
-
+    <div class="container pt-3">
+      <h3 class="text-center fw-bold">Berita</h3>
+      <hr class="border-5 border-top border-danger">
       <div class="row justify-content-center">
         <div class="col-md-4 pt-3">
           <div class="card">
@@ -657,7 +675,7 @@
               <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
               <textarea class="form-control" id="messeage" rows="3" name="messeage"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Kirim</button>
+            <button type="submit" class="btn btn-danger">Kirim</button>
           </form>
         </div>
       </div>
@@ -672,8 +690,6 @@
   </footer>
   <!-- Footer End -->
 
-  <script src="js/jquery.min.js"></script>
-  <script src="owlcarousel/owl.carousel.min.js"></script>
   <script type="text/javascript" src="js/vanilla-tilt.js"></script>
   <script>
     VanillaTilt.init(document.querySelectorAll(".deck-img"), {
@@ -682,9 +698,45 @@
     });
   </script>
 
+  <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
   </script>
+
+  <!-- Jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: true
+          },
+          480: {
+            items: 2,
+            nav: true
+          },
+          768: {
+            items: 3,
+            nav: true,
+            loop: true
+          }
+        }
+      })
+    });
+  </script>
+
+
+
+
 </body>
 
 </html>
