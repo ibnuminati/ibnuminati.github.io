@@ -3,10 +3,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-nav a.active {
-  font-weight: bold;
-}
-
 .nav-link :hover {
   color: #dc3545;
 }
@@ -92,10 +88,6 @@ section a.btn {
   cursor: pointer;
   padding: 12px;
   background: #273036;
-}
-
-.social a {
-  display: inline-block;
 }
 
 .gallery-active {
