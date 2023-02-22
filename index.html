@@ -46,7 +46,6 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav ms-auto">
           <a class="nav-link active fw-bold text-danger" aria-current="page" href="#">Home</a>
-          <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#gallery">Gallerys</a>
           <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link" href="#resume">Resume</a>
@@ -58,10 +57,10 @@
   <!-- Navbar End-->
 
   <!-- Hero Start -->
-  <section class="hero text-light pt-5 ps-1 pb-5" style="height: 600px;">
+  <section class="hero text-light pt-5 ps-1 pb-5">
     <div class="container">
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-7 order-1 order-md-0">
           <h5 class="fw-bold ms-3">Hello, I'm<br><span class="teks-berjalan display-3 fw-bold"></span></h5>
           <div class="lead ms-3">
             <ul>
@@ -69,12 +68,17 @@
               <li>Software Engineer</li>
               <li>Graphic Designer</li>
             </ul>
-            <p class="fs-6">Experienced Programmer with a demonstrated history of
-              working in
-              the automotive
-              industry, multifinance & manufacture for 4 years.<br>Skilled in programming, design graphic and
-              digital marketing.
-            </p>
+            <p class="fs-6">I am a web developer with 4 years experience as a programmer and ERP system application
+              developer and also
+              1 year as a helpdesk / IT support.
+              I have worked in a company engaged in automotive & financing for 3 years as a programmer and 1 year as
+              helpdesk/IT support.
+              And as an ERP system application developer for a year in a company engaged in manufacturing seal.
+              <br>
+              I have strong analysis and planning, good communication and verbal, and able to explain
+              complex software issues in easy-to-reach terms. I also have skills in the field of
+              others include graphic design as well as digital marketing from creating content to managing social
+              media.</p>
           </div>
           <nav class="nav pb-3">
             <a class="nav-link text-white" href="https://www.instagram.com/ibnuminati" target="blank"><i
@@ -97,12 +101,15 @@
                 class="fas fa-chevron-up"></i></a>
           </div>
         </div>
+        <div class="col-md-3 order-md-1 text-center">
+          <img src="img/Ibnu Avatar 2.png" class="avatar" alt="Avatar">
+        </div>
       </div>
   </section>
   <!-- Hero End -->
 
   <!-- About Start -->
-  <section id="about" class=" bg-dark text-light pt-5">
+  <!-- <section id="about" class=" bg-dark text-light pt-5">
     <div class="container">
       <div class="row text-center">
         <div class="col">
@@ -127,7 +134,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- About End -->
 
   <!-- Services Start -->
@@ -328,158 +335,144 @@
 
 
   <!-- Resume Start -->
-  <section id="resume" class="text-light">
+  <section id="resume" class="text-light pt-5">
     <div class="container">
-      <h2 class="fw-bold text-center pb-3 pt-5">Resume</h2>
+      <h2 class="fw-bold text-center">Resume</h2>
       <!-- Experience Start-->
-      <div class="row">
-        <div id="experience" class="col-md-6" data-aos="zoom-in-right" data-aos-offset="300">
-          <h2 class="text-center fw-bold">Experience</h2>
-          <hr class="text-danger">
-          <div class="row">
-            <div class="col-md-3">
-              <img src="img/TPE.jpg" alt="TPE">
-            </div>
-            <div class="col-md-8 text-start desc">
-              <h5>PT Total Prime Engineering</h5>
-              <ul>
-                <li>System Engineer</li>
-                <p>Jan 2021 - Jan 2022</p>
-              </ul>
-            </div>
+      <div class="timeline">
+        <div class="timeline-box left-timeline-box">
+          <img src="img/TPE.jpg" alt="TPE">
+          <div class="timeline-text">
+            <h6>Jan 2021 - Jan 2022</h6>
+            <h5>PT Total Prime Engineering</h5>
+            <small>System Engineer</small>
+            <span class="left-timeline-box-arrow"></span>
           </div>
-          <br>
-          <div class="row">
-            <div class="col-md-3">
-              <img src="img/NSS.jpg" alt="NSS">
-            </div>
-            <div class="col-md-8 text-start desc">
-              <h5>PT Nusantara Surya Sakti</h5>
-              <ul>
-                <li>Programmer</li>
-                <p>Aug 2017 - Aug 2020</p>
-                <li>Helpdesk</li>
-                <p>Aug 2016 - Aug 2017</p>
-            </div>
+        </div>
+        <div class="timeline-box right-timeline-box">
+          <img src="img/NSS.jpg" alt="NSS">
+          <div class="timeline-text">
+            <h6>Aug 2017 - Aug 2020</h6>
+            <h5>PT Nusantara Surya Sakti</h5>
+            <small>Programmer</small>
+            <span class="right-timeline-box-arrow"></span>
+          </div>
+        </div>
+        <div class="timeline-box left-timeline-box">
+          <img src="img/NSS.jpg" alt="NSS">
+          <div class="timeline-text">
+            <h6>Aug 2017 - Aug 2020</h6>
+            <h5>PT Nusantara Surya Sakti</h5>
+            <small>IT Helpdesk</small>
+            <span class="left-timeline-box-arrow"></span>
           </div>
         </div>
         <!-- Experience End -->
-
         <!-- Education Start -->
-        <div class="col-md-6" id="education" data-aos="zoom-in-left" data-aos-offset="400">
-          <h2 class="text-center fw-bold">Education</h2>
-          <hr class="text-danger">
-          <div class="row">
-            <div class="col-md-4">
-              <img src="img/logo-bsi.png" alt="BSI" width="100" class="rounded-circle">
-            </div>
-            <div class="col-md-8 desc">
-              <h5>Bina Sarana Informatika</h5>
-              <ul>
-                <li>Manajemen Informatika</li>
-                <p>2011 - 2015</p>
-              </ul>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-md-4">
-              <img src="img/logo-osis-sma.png" alt="OsisSMA" width="90" class="rounded-circle">
-            </div>
-            <div class="col-md-8 desc">
-              <h5>SMA Al-Huda Jakarta</h5>
-              <ul>
-                <li>IPS</li>
-                <p>2008 - 2011</p>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Education End -->
+        <div class="timeline-box right-timeline-box">
+          <img src="img/logo-bsi.png" alt="logo-bsi">
+          <div class="timeline-text">
+            <h6>2011 - 2015</h6>
+            <h5>Bina Sarana Informatika University</h5>
+            <small>Informatics Management</small>
 
-    <!-- Certificate Start -->
-    <div class="container-fluid pt-3">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-              aria-expanded="true" aria-controls="collapseOne">
-              <strong>dicoding</strong>: Belajar Dasar Pemograman Web
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <img src="img/cert/Cert Belajar Dasar Pemograman Web.jpg" class="mx-auto d-block img-fluid"
-                alt="Sertifikat Dicoding Ibnu Fajar Alam Web Dasar" loading="lazy">
-            </div>
+            <span class="right-timeline-box-arrow"></span>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              <strong>dicoding</strong>: Memulai Pemograman Dengan Java
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <img src="img/cert/Cert Memulai Pemograman Dengan Java.jpg" class="mx-auto d-block img-fluid"
-                alt="Sertifikat Dicoding Ibnu Fajar Java" loading="lazy">
-            </div>
+        <div class="timeline-box left-timeline-box">
+          <img src="img/logo-osis-sma.png" alt="OsisSMA">
+          <div class="timeline-text">
+            <h6>2008 - 2011</h6>
+            <h5>Al-Huda High Scholl Jakarta</h5>
+            <small>Social Sciences Major</small>
+            <span class="left-timeline-box-arrow"></span>
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              <strong>Skill Academy</strong>: Pengenalan Jaringan untuk Cisco CCNA
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <img src="img/cert/CERT-7MSP9GQT.jpg" class="mx-auto d-block img-fluid"
-                alt="Sertifikat Skill Academy Ibnu Fajar Alam CCNA Basic" loading="lazy">
+        <!-- Education End -->
+      </div>
+
+      <!-- Certificate Start -->
+      <div class="container-fluid pt-3">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <strong>dicoding</strong>: Belajar Dasar Pemograman Web
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="img/cert/Cert Belajar Dasar Pemograman Web.jpg" class="mx-auto d-block img-fluid"
+                  alt="Sertifikat Dicoding Ibnu Fajar Alam Web Dasar" loading="lazy">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              <strong>Skill Academy</strong>: (UX Design) Dasar-dasar Merancang Aplikasi yang Mudah Digunakan Pengguna
-            </button>
-          </h2>
-          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <img src="img/cert/CERT-S7OTNR72.jpg" class="mx-auto d-block img-fluid"
-                alt="Sertifikat Skill Academy Ibnu Fajar Alam UX Design Basic" loading="lazy">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <strong>dicoding</strong>: Memulai Pemograman Dengan Java
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="img/cert/Cert Memulai Pemograman Dengan Java.jpg" class="mx-auto d-block img-fluid"
+                  alt="Sertifikat Dicoding Ibnu Fajar Java" loading="lazy">
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingFive">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              <strong>RevoU</strong>: Intro to Digital Marketing
-            </button>
-          </h2>
-          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <img src="img/cert/ibnu-fajar-certificate-completion-dmmc22_page-0001.jpg"
-                class="mx-auto d-block img-fluid" alt="Sertifikat Revou Ibnu Fajar Digital Marketing" loading="lazy">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <strong>Skill Academy</strong>: Pengenalan Jaringan untuk Cisco CCNA
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="img/cert/CERT-7MSP9GQT.jpg" class="mx-auto d-block img-fluid"
+                  alt="Sertifikat Skill Academy Ibnu Fajar Alam CCNA Basic" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <strong>Skill Academy</strong>: (UX Design) Dasar-dasar Merancang Aplikasi yang Mudah Digunakan
+                Pengguna
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="img/cert/CERT-S7OTNR72.jpg" class="mx-auto d-block img-fluid"
+                  alt="Sertifikat Skill Academy Ibnu Fajar Alam UX Design Basic" loading="lazy">
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <strong>RevoU</strong>: Intro to Digital Marketing
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <img src="img/cert/ibnu-fajar-certificate-completion-dmmc22_page-0001.jpg"
+                  class="mx-auto d-block img-fluid" alt="Sertifikat Revou Ibnu Fajar Digital Marketing" loading="lazy">
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Certificate End -->
+      <!-- Certificate End -->
   </section>
   <!-- Resume End-->
 
@@ -533,8 +526,9 @@
     <!-- Contact End -->
     <div class="row m-2 text-center text-light">
       <div class="col">
-        <p>Created with <i class="fa-solid fa-heart text-danger"></i> by <a class="text-white"
-            href="https://www.linkedin.com/in/ibnufajaralam" target="blank">ibnuminati</a></p>
+        <p><i class="fa-regular fa-copyright"></i> 2023 <a href="https://www.linkedin.com/in/ibnufajaralam"><img
+              src="img/ibnuminatech.png" alt="ibnuminatech logo" width="auto" height="20"></a>
+        </p>
       </div>
   </footer>
 
@@ -620,13 +614,13 @@
     })
   </script>
 
-  <!-- <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+  <script type="text/javascript" src="js/vanilla-tilt.js"></script>
   <script>
-    VanillaTilt.init(document.querySelectorAll(".gallery-img"), {
-      max: 25,
+    VanillaTilt.init(document.querySelectorAll(".avatar"), {
+      max: 5,
       speed: 400
     });
-  </script> -->
+  </script>
 
   <!-- Teks berjalan -->
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
