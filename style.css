@@ -3,6 +3,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+#hero {
+  height: 100vh;
+}
+
 .nav-link :hover {
   color: #DC3545;
 }
@@ -10,6 +14,8 @@ body {
 section a.btn {
   margin-top: 10px;
 }
+
+/* Services Start */
 
 #services .card-title {
   padding-bottom: 10px;
@@ -40,9 +46,30 @@ section a.btn {
   padding: 10px;
 }
 
+/* Services End */
+
+/* Gallery Start */
 #gallery li {
   list-style: none;
 }
+
+.category-title {
+  display: flex;
+  cursor: pointer;
+  padding: 12px;
+  background: #273036;
+}
+
+.gallery-active {
+  background-color: #DC3545;
+}
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Gallery End */
 
 /* 
 #services,
@@ -62,43 +89,36 @@ section a.btn {
   padding-top: 10px;
 } */
 
+/* Skills Start */
 .skills-img {
   width: 100%;
 }
 
 .card-thumbnail img {
-  width: 120px;
-  height: 120px;
+  max-width: 120px;
+  /* height: 120px; */
   margin: 10px;
 }
+
+/* Skills End */
 
 .back-to-top {
   position: fixed;
   bottom: 25px;
   right: 25px;
   display: none;
+  z-index: 1;
 }
 
 .teks-berjalan {
   color: #DC3545;
 }
 
-.category-title {
-  display: flex;
-  cursor: pointer;
-  padding: 12px;
-  background: #273036;
-}
-
-.gallery-active {
-  background-color: #DC3545;
-}
-
 .btn-kirim:hover {
   opacity: 0.7;
 }
 
-/* Timeline start */
+/* Timeline Start */
 .timeline {
   position: relative;
   max-width: 1200px;
@@ -110,7 +130,7 @@ section a.btn {
   position: absolute;
   width: 6px;
   height: 100%;
-  background-color: #DC3545;
+  background-color: #fff;
   top: 0;
   left: 50%;
   margin-left: -3px;
@@ -127,7 +147,6 @@ section a.btn {
     height: 100;
   }
 }
-
 
 .timeline-box {
   padding: 10px 50px;
@@ -204,6 +223,8 @@ section a.btn {
 
 /* Desktop Version */
 @media (min-width: 768px) {
+
+  /* Timeline Start */
   .lead ul {
     display: inline-flex;
     margin-left: -2rem;
@@ -213,10 +234,14 @@ section a.btn {
     margin-left: 2rem;
     list-style: circle;
   }
+
+  /* Timeline End */
 }
 
 /* Mobile Version */
 @media (max-width: 600px) {
+
+  /* Timeline start */
   .timeline {
     margin: 50px auto;
   }
@@ -254,4 +279,7 @@ section a.btn {
     border-left: 0;
     left: -15px;
   }
+
+  /* Timeline End */
+
 }
