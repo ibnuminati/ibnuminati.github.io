@@ -107,7 +107,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-4 text-center" data-aos="fade-right">
-          <img src="img/Ibnu Fajar Alam.jpg" alt="IbnuFajarAlam" width="200" class="rounded-circle pt-3" />
+          <img src="img/Ibnu Fajar Alam.jpg" alt="IbnuFajarAlam" width="200" class="rounded-circle" />
         </div>
         <div class="col-xs-12 col-md-8 mt-3 justify-content-center" data-aos="fade-left" data-aos-delay="200">
           <p class="fs-6">Saya adalah seorang <em>web developer</em> dengan pengalaman 4 tahun sebagai
@@ -143,7 +143,7 @@
       <h2 class="fw-bold pb-3">Apa yang bisa saya lakukan untuk Anda?</h2>
       <div class="row row-cols-md-3 row-cols-sm-1">
         <div class="col mb-3">
-          <div class="card-services" data-aos="zoom-in" data-aos-duration="500" data-aos-offset="200">
+          <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="200">
             <div class="card-body">
               <img src="img/icon_web_development.png" alt="WebDevelopment">
               <h5 class="card-title fw-bold">Development</h5>
@@ -157,7 +157,7 @@
           </div>
         </div>
         <div class="col mb-3">
-          <div class="card-services" data-aos="zoom-in" data-aos-duration="500" data-aos-offset="250">
+          <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="250">
             <div class="card-body">
               <img src="img/icon_design_graphic.png" alt="DesignGraphic">
               <h5 class="card-title fw-bold">Design</h5>
@@ -170,7 +170,7 @@
           </div>
         </div>
         <div class="col mb-3">
-          <div class="card-services" data-aos="zoom-in" data-aos-duration="500" data-aos-offset="300">
+          <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="300">
             <div class="card-body">
               <img src="img/icon_digital_marketing.png" alt="DigitalMarketing">
               <h5 class="card-title fw-bold">Digital Marketing</h5>
@@ -191,7 +191,7 @@
   <!-- Skills Start -->
   <section id="skills">
     <div class="container text-center pb-3 m-auto">
-      <div class="row row-cols-sm-4 row-cols-md-6">
+      <div class="row row-cols-4 row-cols-md-6">
         <div class="col card-thumbnail">
           <img src="img/thumbnail/HTML5.png" class="card-img-top skills-img" alt="HTML5">
         </div>
@@ -281,29 +281,29 @@
   <section id="projects" class="bg-dark text-light pt-5">
     <div class="container">
       <h2 class="text-center fw-bold">Proyek</h2>
-      <div class="row row-cols-2 row-cols-sm-1">
-        <div class="col">
+      <div class="row row-cols-sm-1 row-cols-md-2">
+        <div class="col" data-aos="zoom-out-right" data-aos-duration="666" data-aos-offset="200">
           <div>
             <img src="img/goodeck_mockup.png" class="img-fluid img-project pt-3" alt="gooddeck" loading="lazy">
-            <a href="https://www.gooddeck.shop/" class="btn btn-danger btn-demo" target="_blank"><i
+            <a href="https://www.gooddeck.shop/" class="btn btn-danger btn-demo btn-sm" target="_blank"><i
                 class="fa-solid fa-eye"></i>
-              Company Profile</a>
+              LIVE DEMO</a>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-out-left" data-aos-duration="666" data-aos-offset="300">
           <div>
             <img src="img/vcard-syifa.png" class="img-fluid img-project pt-3" alt="vcard syifa pratiwi" loading="lazy">
-            <a href="https://www.syifapratiwi.online/" class="btn btn-primary btn-demo" target="_blank"><i
+            <a href="https://www.syifapratiwi.online/" class="btn btn-primary btn-demo btn-sm" target="_blank"><i
                 class="fa-solid fa-eye"></i>
-              vCard</a>
+              LIVE DEMO</a>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-out-right" data-aos-duration="666" data-aos-offset="400">
           <div>
             <img src="img/momentum-web-id.png" class="img-fluid img-project pt-3" alt="momentum-web-id" loading="lazy">
-            <a href="https://momentum.web.id" class="btn btn-warning btn-demo" target="_blank"><i
+            <a href="https://momentum.web.id" class="btn btn-warning btn-demo btn-sm" target="_blank"><i
                 class="fa-solid fa-eye"></i>
-              Undangan Digital</a>
+              LIVE DEMO</a>
           </div>
         </div>
       </div>
@@ -554,15 +554,15 @@
     skillsImage.forEach((img, i) => {
       img.dataset.aos = 'fade-down';
       img.dataset.aosDelay = i * 100;
-      img.dataset.aosDuration = 500;
+      img.dataset.aosDuration = 666;
     })
     galleryImage.forEach((img, i) => {
       img.dataset.aos = 'flip-left';
       img.dataset.aosDelay = i * 100;
-      img.dataset.aosDuration = 500;
+      img.dataset.aosDuration = 666;
     })
     AOS.init({
-      once: true,
+      once: false,
     });
   </script>
 
