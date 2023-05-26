@@ -4,9 +4,8 @@ body {
 
 #hero {
     height: 100vh;
-    /* background-image: url(../img/truckDesktop.c27ef2de.jpg); */
     background: linear-gradient(0deg,
-            rgba(244, 74, 96, 0.5) 5%,
+            rgba(225, 223, 221) 3%,
             rgba(255, 255, 255, 0) 75%),
         url(../img/truckDesktop.c27ef2de.jpg);
     background-size: cover;
@@ -22,6 +21,10 @@ body {
 
 #services .card-title {
     padding-bottom: 10px;
+}
+
+#category {
+    background-color: #E1DFDD;
 }
 
 .card-services {
