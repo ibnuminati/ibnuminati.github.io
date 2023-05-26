@@ -1,11 +1,14 @@
 body {
-    height: 5000px;
+    height: 2000px;
 }
 
 #hero {
     height: 100vh;
-    background-image: url(../img/truckDesktop.c27ef2de.jpg);
-    background-position: center center;
+    /* background-image: url(../img/truckDesktop.c27ef2de.jpg); */
+    background: linear-gradient(0deg,
+            rgba(244, 74, 96, 0.5) 5%,
+            rgba(255, 255, 255, 0) 75%),
+        url(../img/truckDesktop.c27ef2de.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -13,6 +16,7 @@ body {
 .hero-title {
     padding-top: 300px;
 }
+
 
 /* Services Start */
 
