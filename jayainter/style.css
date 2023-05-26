@@ -1,0 +1,53 @@
+body {
+    height: 5000px;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url(../img/truckDesktop.c27ef2de.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-title {
+    padding-top: 150px;
+}
+
+/* Services Start */
+
+#services .card-title {
+    padding-bottom: 10px;
+}
+
+.card-services {
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-top: 1px solid #DC3545;
+    border-left: 1px solid #DC3545;
+    backdrop-filter: blur(5px);
+    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-services li {
+    list-style: none;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: -25px;
+}
+
+.card-services img {
+    max-width: 150px;
+    padding: 10px;
+}
+
+/* Services End */
+
+.brand-img img {
+    height: 38px;
+    max-width: 100%;
+}
