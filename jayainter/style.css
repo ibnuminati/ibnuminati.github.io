@@ -3,7 +3,7 @@
     background: linear-gradient(0deg,
             rgba(225, 223, 221) 3%,
             rgba(255, 255, 255, 0) 75%),
-        url(../img/truckDesktop.c27ef2de.jpg);
+        url(assets/truckDesktop.c27ef2de.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -49,11 +49,6 @@
 }
 
 /* Services End */
-
-.brand-img img {
-    height: 38px;
-    max-width: 100%;
-}
 
 #product .card {
     border: 0;
