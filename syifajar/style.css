@@ -1,0 +1,99 @@
+body {
+  overflow-y: hidden;
+  background-image: url("./img/bg-ww.png");
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.offcanvas-body {
+  background-image: url("./img/bw-ww-bottom.png");
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Small devices (potraits phones, 360px and up) */
+@media (min-width: 360px) {
+
+  #offcanvasNavbar {
+    width: 70%;
+    height: auto;
+  }
+
+  .navbar img {
+    height: 20%;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    max-width: 210px;
+  }
+
+  .hero {
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .hero nav {
+    justify-content: center;
+  }
+
+  .hero img {
+    width: 200px;
+  }
+
+  #contact {
+    padding-top: 130px;
+  }
+
+  footer {
+    margin-top: -50px;
+    text-align: center;
+  }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #offcanvasNavbar {
+    width: 30%;
+    height: 100%;
+  }
+
+  .hero {
+    padding-top: 80px;
+  }
+
+  .hero-title {
+    padding-top: 60px;
+  }
+
+  .location {
+    padding-left: 50px;
+  }
+
+  .hero nav {
+    padding-left: 110px;
+  }
+
+  #contact {
+    padding-top: 200px;
+  }
+
+  .hero img {
+    width: 350px;
+    min-height: 50px;
+  }
+
+  #location {
+    padding-right: 300px;
+  }
+
+  footer {
+    margin-top: -100px;
+    text-align: end;
+  }
+
+}
