@@ -1,55 +1,56 @@
 #hero {
-    height: 100vh;
-    background: linear-gradient(0deg,
-            rgba(225, 223, 221) 3%,
-            rgba(255, 255, 255, 0) 75%),
-        url(assets/truckDesktop.c27ef2de.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+  height: 100vh;
+  background: linear-gradient(
+      0deg,
+      rgba(225, 223, 221) 3%,
+      rgba(255, 255, 255, 0) 75%
+    ),
+    url(assets/truckDesktop.c27ef2de.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero-title {
-    padding-top: 300px;
+  padding-top: 150px;
 }
-
 
 /* Services Start */
 
 #services .card-title {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 #category {
-    background-color: #E1DFDD;
+  background-color: #e1dfdd;
 }
 
 .card-services {
-    width: 100%;
-    max-width: 500px;
-    height: 400px;
-    padding: 1rem;
-    border-radius: 1rem;
-    border-top: 1px solid #DC3545;
-    border-left: 1px solid #DC3545;
-    backdrop-filter: blur(5px);
-    box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.5);
-    background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  max-width: 500px;
+  height: 400px;
+  padding: 1rem;
+  border-radius: 1rem;
+  border-top: 1px solid #dc3545;
+  border-left: 1px solid #dc3545;
+  backdrop-filter: blur(5px);
+  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .card-services li {
-    list-style: none;
-    font-weight: bold;
-    font-style: oblique;
-    margin-left: -25px;
+  list-style: none;
+  font-weight: bold;
+  font-style: oblique;
+  margin-left: -25px;
 }
 
 .card-services img {
-    max-width: 150px;
-    padding: 10px;
+  max-width: 150px;
+  padding: 10px;
 }
 
 /* Services End */
 
 #product .card {
-    border: 0;
+  border: 0;
 }
