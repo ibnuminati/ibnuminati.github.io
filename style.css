@@ -7,8 +7,17 @@ body {
   height: 100vh;
 }
 
+.avatar {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.avatar:hover {
+  filter: grayscale(0%);
+}
+
 .nav-link :hover {
-  color: #DC3545;
+  color: #dc3545;
 }
 
 section a.btn {
@@ -27,8 +36,8 @@ section a.btn {
   height: 400px;
   padding: 1rem;
   border-radius: 1rem;
-  border-top: 1px solid #DC3545;
-  border-left: 1px solid #DC3545;
+  border-top: 1px solid #dc3545;
+  border-left: 1px solid #dc3545;
   backdrop-filter: blur(5px);
   box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, 0.1);
@@ -61,7 +70,7 @@ section a.btn {
 }
 
 .gallery-active {
-  background-color: #DC3545;
+  background-color: #dc3545;
 }
 
 .gallery img {
@@ -93,7 +102,7 @@ section a.btn {
 }
 
 .teks-berjalan {
-  color: #DC3545;
+  color: #dc3545;
 }
 
 .btn-kirim:hover {
@@ -108,7 +117,7 @@ section a.btn {
 }
 
 .timeline::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 6px;
   height: 100%;
@@ -202,10 +211,8 @@ section a.btn {
 
 /* Timeline End */
 
-
 /* Desktop Version */
 @media (min-width: 768px) {
-
   /* Timeline Start */
   .lead ul {
     display: inline-flex;
@@ -222,7 +229,6 @@ section a.btn {
 
 /* Mobile Version */
 @media (max-width: 600px) {
-
   /* Timeline start */
   .timeline {
     margin: 50px auto;
@@ -263,5 +269,4 @@ section a.btn {
   }
 
   /* Timeline End */
-
 }
