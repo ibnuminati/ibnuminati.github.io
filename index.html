@@ -16,6 +16,10 @@
   <!-- My CSS -->
   <link rel="stylesheet" href="style.css">
 
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+
   <!-- Icon -->
   <script src="https://kit.fontawesome.com/cfa43446be.js" crossorigin="anonymous"></script>
 
@@ -91,7 +95,7 @@
           </div>
         </div>
         <div class="col-md-5 order-md-1 text-center">
-          <img src="img/Ibnu-Avatar.png" class="avatar" alt="Avatar">
+          <img src="img/Ibnu Fajar Alam.jpg" class="avatar rounded-circle" width="300" alt="Avatar">
         </div>
       </div>
   </section>
@@ -106,15 +110,16 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-md-4 text-center" data-aos="fade-right">
-          <img src="img/Ibnu Fajar Alam.jpg" alt="IbnuFajarAlam" width="200" class="rounded-circle" />
-        </div>
-        <div class="col-xs-12 col-md-8 mt-3 justify-content-center" data-aos="fade-left" data-aos-delay="200">
+        <div class="col-xs-12 col-md-6" data-aos="fade-right">
           <p class="fs-6">Saya adalah seorang <em>web developer</em> dengan pengalaman 4 tahun sebagai
             <em>programmer</em> dan <em>developer</em> aplikasi sistem ERP
             dan juga 1 tahun sebagai <em>helpdesk/IT support</em>.<br />
             Saya pernah bekerja di perusahaan yang bergerak di bidang dealer otomotif, <em>multi-finance</em> &
             manufaktur.</p>
+          <!-- <img src="img/Ibnu Fajar Alam.jpg" alt="IbnuFajarAlam" width="200" class="rounded-circle" /> -->
+        </div>
+        <div class="col-xs-12 col-md-6" data-aos="fade-left" data-aos-delay="200">
+          
           <p class="fs-6">Saya memiliki keterampilan <em>problem-solving</em> yang baik dengan pengalaman bekerja
             menangani ratusan pengguna & kantor cabang.<br />
             Saya juga memiliki keterampilan di bidang lain termasuk desain grafis serta pemasaran digital & membuat
@@ -138,46 +143,40 @@
   <section id="services" class="justify-content-center text-light pt-5">
     <div class="container text-center">
       <h2 class="fw-bold pb-3">Apa yang bisa saya lakukan untuk Anda?</h2>
-      <div class="row row-cols-md-3 row-cols-sm-1">
-        <div class="col mb-3">
-          <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="200">
-            <div class="card-body">
-              <img src="img/icon_web_development.png" alt="WebDevelopment">
-              <h5 class="card-title fw-bold">Development</h5>
-              <ul>
-                <li>Company Profile</li>
-                <li>Portfolio</li>
-                <li>Kartu Nama Online(vCard)</li>
-                <li>Undangan Digital</li>
-              </ul>
-            </div>
+      <div class="owl-carousel owl-theme">
+        <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="200">
+          <div class="card-body">
+            <img src="img/icon_web_development.png" alt="WebDevelopment">
+            <h5 class="card-title fw-bold">Development</h5>
+            <ul>
+              <li>Company Profile</li>
+              <li>Portfolio</li>
+              <li>Kartu Nama Online(vCard)</li>
+              <li>Undangan Digital</li>
+            </ul>
           </div>
         </div>
-        <div class="col mb-3">
-          <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="250">
-            <div class="card-body">
-              <img src="img/icon_design_graphic.png" alt="DesignGraphic">
-              <h5 class="card-title fw-bold">Design</h5>
-              <ul>
-                <li>Web Design</li>
-                <li>Logo Brand</li>
-                <li>UI/UX Design</li>
-              </ul>
-            </div>
+        <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="250">
+          <div class="card-body">
+            <img src="img/icon_design_graphic.png" alt="DesignGraphic">
+            <h5 class="card-title fw-bold">Design</h5>
+            <ul>
+              <li>Web Design</li>
+              <li>Logo Brand</li>
+              <li>UI/UX Design</li>
+            </ul>
           </div>
         </div>
-        <div class="col mb-3">
-          <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="300">
-            <div class="card-body">
-              <img src="img/icon_digital_marketing.png" alt="DigitalMarketing">
-              <h5 class="card-title fw-bold">Digital Marketing</h5>
-              <ul>
-                <li>Social Media Management</li>
-                <li>Branding Product</li>
-                <li>Content Maker</li>
-                <li>SEO</li>
-              </ul>
-            </div>
+        <div class="card-services" data-aos="zoom-in" data-aos-duration="666" data-aos-offset="300">
+          <div class="card-body">
+            <img src="img/icon_digital_marketing.png" alt="DigitalMarketing">
+            <h5 class="card-title fw-bold">Digital Marketing</h5>
+            <ul>
+              <li>Social Media Management</li>
+              <li>Branding Product</li>
+              <li>Content Maker</li>
+              <li>SEO</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -412,6 +411,27 @@
       });
     });
   </script>
+
+<script src="owlcarousel/owl.carousel.min.js"></script>
+
+<script>
+  $(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      responsiveClass: true,
+      nav: false,
+      loop: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 3,
+        }
+      }
+    })
+  });
+</script>
 
   <!-- AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
