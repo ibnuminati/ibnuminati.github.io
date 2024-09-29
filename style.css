@@ -3,8 +3,16 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+h2 {
+  color: darkgoldenrod;
+}
+
 #hero {
   height: 100vh;
+}
+
+.btn-contact {
+  background-color: darkgoldenrod;
 }
 
 .avatar {
@@ -16,8 +24,13 @@ body {
   filter: grayscale(0%);
 }
 
+.border-avatar {
+  border: 5px solid darkgoldenrod; /* Atur ketebalan dan warna border */
+  border-radius: 50%; /* Agar border mengikuti bentuk bulat */
+}
+
 .nav-link :hover {
-  color: #dc3545;
+  color: darkgoldenrod;
 }
 
 section a.btn {
@@ -25,7 +38,6 @@ section a.btn {
 }
 
 /* Services Start */
-
 #services .card-title {
   padding-bottom: 10px;
 }
@@ -36,10 +48,9 @@ section a.btn {
   height: 400px;
   padding: 1rem;
   border-radius: 1rem;
-  border-top: 1px solid #dc3545;
-  border-left: 1px solid #dc3545;
+  border-top: 1px solid goldenrod;
+  border-left: 1px solid goldenrod;
   backdrop-filter: blur(5px);
-  box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, 0.5);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -53,9 +64,8 @@ section a.btn {
 .card-services img {
   max-width: 150px;
   padding: 10px;
-  margin-left: 125px;
+  margin-left: 100px;
 }
-
 /* Services End */
 
 /* Gallery Start */
@@ -103,7 +113,7 @@ section a.btn {
 }
 
 .teks-berjalan {
-  color: #dc3545;
+  color: darkgoldenrod;
 }
 
 .btn-kirim:hover {
