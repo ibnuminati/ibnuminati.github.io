@@ -281,3 +281,14 @@ section a.btn {
 
   /* Timeline End */
 }
+
+/* PB Start */
+.text-strava {
+    color: #FC4C02 !important;
+}
+
+.text-strava:hover {
+    color: #e04300 !important;
+}
+
+/* PB End */
