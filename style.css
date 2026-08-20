@@ -11,6 +11,18 @@ h2 {
   height: 100vh;
 }
 
+#hero-pb {
+  height: 100vh;
+  background-image: url();
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hero-title-pb {
+  padding-top: 50px;
+}
+
 .btn-contact {
   background-color: white;
 }
